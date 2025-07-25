@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- font link -->
-    <!-- <link
+    <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet"> -->
+        rel="stylesheet">
     <!-- Tailwind -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Floweer Shop</title>
+    
 </head>
 
 <body>
     <!-- Header section start -->
-    <header>
+    <header class="bg-size">
         <nav class="">
             <a href=""><img src="image/logo.png" alt=""></a>
             <ul>
@@ -35,7 +37,7 @@
     <!-- Main section start -->
     <main>
         <!-- banner section start -->
-        <div class="banner">
+        <div class="banner bg-size mobile-size ">
             <div class="banner-left">
                 <h1 class="text-5xl font-bold leading-[1.3]">ALWAYS <span class="text-color">FRESH FLOWERS</span></h1>
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
@@ -46,7 +48,7 @@
             </div>
         </div>
         <!-- Plants section start -->
-        <div class="plants">
+        <div class="plants bg-size mobile-size ">
             <div class="plants-text">
                 <h1 class="text-5xl font-bold leading-[1.3]"> <span class="text-color">Our</span> Plants</h1>
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
@@ -149,7 +151,7 @@
         <div class="trusted-badge">
             <img src="image/trusted-badge.png" height="255" width="255" alt="">
         </div>
-        <div class="plants-lover">
+        <div class="plants-lover bg-size ">
             <div class="plants-lover-main">
                 <div class="left">
                     <img src="image/flower-store.png" alt="">
@@ -170,26 +172,83 @@
                 </div>
             </div>
         </div>
-                <!-- Latest Deal section start -->
-        <div class="latest-deal plants">
-            <div class="plants-text">
+        <!-- Latest Deal section start -->
+        <div class="latest-deal plants bg-size mobile-size">
+            <div class="plants-text plants p">
                 <h1 class="text-5xl font-bold leading-[1.3]"> <span class="text-color">Latest</span> Deals</h1>
                 <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
                     exotic blooms, we offer a wide variety of fresh. </p>
             </div>
             <div class="latest-deal-img">
-                <img src="image/deal-bloom.png" alt="">
-                <img src="image/deal-zabo.png" alt="">
-                                <img src="image/deal-ana.png" alt="">
-            </div>
+                <div class="latest-deal-img1">
+                    <div class="deal deal-img1">
+                        <div class="deal-text">
+                            <h1 class="text-xl font-semibold leading-[1.3]">60% Off | Bloom Plant</h1>
+                            <h3 class="font-semibold"><u>Shop Now</u></h3>
+                        </div>
+                    </div>
+                    <div class="deal deal-img2">
+                        <div class="deal-text">
+                            <h1 class="text-xl font-semibold leading-[1.3]">30% Off | Ana Plant</h1>
+                            <h3 class="font-semibold"><u>Shop Now</u></h3>
+                        </div>
+                    </div>
 
+
+                </div>
+                <div class="latest-deal-img2 img-text">
+                    <div class="deal deal-img3">
+                        <div class="deal-text">
+                            <h1 class="text-4xl font-semibold leading-[1.3]">25% Off | Zabo Plant</h1>
+                            <h3 class="font-semibold text-2xl"><u>Shop Now</u></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+        <!-- Join section start -->
+        <div class="join">
+            <h1 class="plants-text text-white text-5xl font-bold leading-[1.3]">Join the colorful Bunch</h1>
+            <div class="join-sub">
+                <div class="input">
+                    <input type="email" name="" id="" placeholder="Write email">
+                </div>
+                <div class="subscribe bg-color">
+                    <a href="" class="text-white">Subscribe</a>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <!-- Footer section start -->
-    <footer>
-
+    <footer class=" ">
+        <div class="logo size">
+            <img src="image/logo.png" alt="">
+            <p class="text">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        </div>
+        <div class="footer-nav size2">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Help Center</a></li>
+            </ul>
+        </div>
+        <div class="socia size">
+            <ul class="social-icon">
+                <li><img src="image/icon-linkedin.png" alt=""></li>
+                <li><img src="image/icon-twitter.png" alt=""></li>
+                <li><img src="image/icon-facebook.png" alt=""></li>
+                <li><img src="image/icon-youtube.png" alt=""></li>
+            </ul>
+        </div>
     </footer>
 </body>
 
