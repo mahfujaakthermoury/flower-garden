@@ -4,30 +4,23 @@
     margin: 0;
     padding: 0;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
+.nevbar{
+   padding: 0;
+   margin: 0;
 }
-    nav ul {
+   .nevbar ul {
         display: flex;
-        gap: 8px;
+        
     }
 
-    nav ul li:not(:last-child) {
+       .nevbar ul li {
+        display: flex;
+        padding-left: 30px;        
+    }
+    
+    .nevbar ul li:not(:last-child) {
         display: none;
     }
-
-    nav ul li:last-child {
-        display: flex;
-        align-items: center;
-    }
-
-    nav ul li:last-child img {
-        margin-right: 4px;
-    }
-
-
 
 .banner {
     display: flex;
@@ -44,7 +37,11 @@ img {
 .banner-left h1 {
     font-size: 2rem;
 }
+.banner-left p {
+    font-size: 1rem;
+       line-height: 20px;
 
+}
 .right {
     margin-bottom: 10px;
 }
@@ -58,11 +55,18 @@ img {
     padding: 0px;
 
 }
-
+.plants p{
+   width: 330px;
+   font-size: 16px;
+   text-align: center;
+   line-height: 20px;
+  }
 .plants-all-card {
     display: grid;
-    grid-template-columns: 2, 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
 }
 
 .plants-card {
@@ -72,9 +76,9 @@ img {
 .card-button {
     display: inline-block;
     margin-top: 10px;
-    padding: 6px 12px;
-    border-radius: 4px;
+    padding: 10px 48px;
 }
+
 
 .plants-lover{
    padding: 0;
@@ -82,30 +86,31 @@ img {
 .plants-lover .right{
    margin: 0;
 }
+
 .plants-lover .right h1{
 font-size: 35px;
+padding-bottom: 15px;
 }
 .plants-lover .right ul{
-   font-size: 15px;
+   font-size: 16px;
    padding: 0 ;
    padding-left: 20px;
-   width: 350px;
+   width: 380px;
 }
 .plants-lover-main {
     display: flex;
     flex-direction: column;
-    padding: 20px ;
+    padding: 5px 20px ;
 }
 
 .plants-lover-main .right {
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: left;
 }
 
 .plants-lover-main ul {
     padding-left: 20px;
 }
-
 
 .latest-deal-img {
     display: flex;
@@ -175,14 +180,17 @@ footer {
     background-color: #f9f9f9;
     gap: 20px;
 }
-
+footer .logo p{
+      line-height: 25px;
+      width: 400px;
+      font-size: 18px;
+}
 .footer-nav ul  {
     display: block;
     flex-wrap: wrap;
     justify-content: center;
 }
-.socia {
-    
+.social-icon li:first-child {
+    padding-left: 0px;
 }
-
 }
